@@ -36,7 +36,7 @@
     <form id="form1" runat="server">
         <div>
             <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
-                <a class="navbar-brand" href="default.aspx">
+                <a class="navbar-brand" href="Default.aspx">
                     <img src="LogoImg/logoicon1.png" alt="logo" width="55" height="55" />LMS Application</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="default.aspx"><b>Home</b></a>
+                            <a class="nav-link" href="Default.aspx"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><b>Library Collection</b></a>
@@ -232,7 +232,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <a href="default.aspx"><< Back to home screen</a>
+                                                <a href="Default.aspx"><< Back to home screen</a>
                                             </div>
                                         </div>
                                     </div>

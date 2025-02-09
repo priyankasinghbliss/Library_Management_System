@@ -10,7 +10,7 @@
 
 namespace Library_Management_System
 {
-    public partial class _default
+    public partial class Default
     {
     }
 }

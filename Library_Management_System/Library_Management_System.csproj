@@ -74,7 +74,7 @@
     <Content Include="Bootstrap\js\popper.min.js" />
     <Content Include="Datatables\css\dataTables.dataTables.min.css" />
     <Content Include="Datatables\js\dataTables.min.js" />
-    <Content Include="default.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="fontawesome\fontawesome-free-6.7.1-web\css\all.css" />
     <Content Include="fontawesome\fontawesome-free-6.7.1-web\css\all.min.css" />
@@ -2206,12 +2206,12 @@
       <DependentUpon>AdminHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBConnect.cs" />
-    <Compile Include="default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="ErrorPage.aspx.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>

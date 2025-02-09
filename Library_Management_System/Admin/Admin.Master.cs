@@ -21,7 +21,7 @@ namespace Library_Management_System.Admin
             }
             else
             {
-                Response.Redirect("../default.aspx");
+                Response.Redirect("../Default.aspx");
             }
         }
     }
