@@ -141,14 +141,14 @@
                                                                     <asp:TextBox ID="txtfullname" CssClass="form-control" placeholder="Full Name" runat="server"></asp:TextBox>
                                                                     <asp:RequiredFieldValidator ID="rfvfullname" runat="server" ErrorMessage="Enter Full name!" ControlToValidate="txtfullname" Display="Dynamic" ForeColor="Red" SetFocusOnError="True"></asp:RequiredFieldValidator>
                                                                 </div>
-                                                                <label>Date of Birth</label>
+                                                                <formlabel>Date of Birth</formlabel>
                                                                 <div class="form-group">
                                                                     <asp:TextBox ID="txtdob" CssClass="form-control" placeholder="DOB" TextMode="Date" runat="server"></asp:TextBox>
                                                                 </div>
-                                                                <label>Contact No.</label>
+                                                                <formlabel>Contact No.</formlabel>
                                                                 <div class="form-group">
                                                                     <asp:TextBox ID="txtcontact" CssClass="form-control" placeholder="Contact No." runat="server"></asp:TextBox>
-                                                                    <asp:RegularExpressionValidator ID="revmobileno" runat="server" ControlToValidate="txtcontact" ValidationExpression="^([0-9]{10})$" Display="None" ErrorMessage="Enter valid contact!"></asp:RegularExpressionValidator>
+                                                                    <asp:RegularExpressionValidator ID="revmobileno" runat="server" ControlToValidate="txtcontact" ValidationExpression="^([0-9]{10})$" Display="Dynamic" ErrorMessage="Enter valid contact!"></asp:RegularExpressionValidator>
                                                                 </div>
                                                                 <label>Email ID</label>
                                                                 <div class="form-group">
@@ -203,7 +203,7 @@
                                                                 <label>Pin Code</label>
                                                                 <div class="form-group">
                                                                     <asp:TextBox ID="txtpincode" CssClass="form-control" placeholder="Pin code" runat="server"></asp:TextBox>
-                                                                    <asp:RegularExpressionValidator ID="revpincode" runat="server" ControlToValidate="txtpincode" ValidationExpression="^([0-9]{6})$" Display="None" ErrorMessage="Enter valid pincode!"></asp:RegularExpressionValidator>
+                                                                    <asp:RegularExpressionValidator ID="revpincode" runat="server" ControlToValidate="txtpincode" ValidationExpression="^([0-9]{6})$" Display="Dynamic" ErrorMessage="Enter valid pincode!"></asp:RegularExpressionValidator>
                                                                 </div>
                                                                 <label>Full Address</label>
                                                                 <div class="form-group">
@@ -217,7 +217,7 @@
                                                             </div>
                                                             <div class="col-12">
                                                                 <center>
-                                                                    <div class="form-group" style="width:fit-content;">
+                                                                    <div class="form-group" style="width: fit-content;">
                                                                         <asp:Button ID="btnsignup" CssClass="btn btn-success btn-lg btn-block" runat="server" Text="Sign Up" OnClick="btnsignup_Click" />
                                                                     </div>
                                                                     <%--<div class="form-group">
